@@ -10,7 +10,7 @@ export default class ImageHandler {
         let collection = [];
         for (let i = 1; i <= 5; i++) {
             let image = new Image()
-            image.src = `/images/${this.theme}/${this.theme + i}.jpg`
+            image.src = `./images/${this.theme}/${this.theme + i}.jpg`
             collection.push(image);
         }
         return collection;
